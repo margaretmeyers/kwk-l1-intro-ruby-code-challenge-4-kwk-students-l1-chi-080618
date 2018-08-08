@@ -29,4 +29,4 @@ coins = {
  puts coins
 end
 
-least_coins(90)
+least_coins(29)
