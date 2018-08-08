@@ -1,12 +1,12 @@
 #write out your code here
 
 def least_coins(cents)
-coins = {
-  :quarter => 0,
-  :dime => 0,
-  :nickel => 0,
-  :penny => 0
-}
+  coins = {
+    :quarter => 0,
+    :dime => 0,
+    :nickel => 0,
+    :penny => 0
+  }
 
 # least_coins.loop do 
   until cents == 0
@@ -24,7 +24,7 @@ coins = {
      cents = cents - 1
     else
       break
-   end 
+    end 
  end 
  puts coins
 end
