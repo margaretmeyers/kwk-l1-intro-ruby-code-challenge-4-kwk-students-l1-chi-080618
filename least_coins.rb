@@ -29,4 +29,4 @@ def least_coins(cents)
   puts coins
 end
 
-least_coins(150)
+least_coins(130)
