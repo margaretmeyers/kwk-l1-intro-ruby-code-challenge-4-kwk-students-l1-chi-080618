@@ -2,10 +2,10 @@
 
 def least_coins(cents)
 coins = {
-  :quarter => "0"
-  :dime => "0"
-  :nickel => "0"
-  :penny => "0"
+  :quarter => 0
+  :dime => 0
+  :nickel => 0
+  :penny => 0
 }
 
 # least_coins.loop do 
